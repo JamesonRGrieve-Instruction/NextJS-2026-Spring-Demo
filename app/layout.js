@@ -27,11 +27,11 @@ export default function RootLayout({ children }) {
         <nav>
           <ul>
             <li><Link href="/">Home</Link></li>
-            <li><Link href="/example"> Exmaple 1</Link></li>
-            <li><Link href="/example/example">Example 2</Link></li>
+            <li><Link href="/colour">Colour Switcher</Link></li>
+            <li><Link href="/counter">Counter</Link></li>
           </ul>
         </nav>
-        {children}</body>
+        <main>{children}</main></body>
     </html>
   );
 }
